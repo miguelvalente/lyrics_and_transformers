@@ -19,5 +19,5 @@ You can choose between BERT and DistilBERT based on a numerical value 0 = BERT, 
 ### TO DO
 - [x] Lyrics Genre Classification
 - [ ] Lyrics Generation
-- [x] Lyrics Genre Classification - Analysis
+- [] Lyrics Genre Classification - Analysis
 - [ ] Lyrics Generation - Analysis
