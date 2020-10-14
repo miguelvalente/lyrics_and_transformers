@@ -18,12 +18,11 @@ from transformers import DistilBertForSequenceClassification ,BertForSequenceCla
 def main(args):
 
     #arguments passed 
-    lyrics_path = args[0]
-    batch_size = args[1]
-    epochs = args[2]
-    model_choice = args[3]
-    wandb_project_name = args[4]
-
+    lyrics_path = args.lyrics_path
+    batch_size = args.batch_size
+    epochs = args.epochs
+    model_choice = args.model_choice
+    wandb_project_name = args.wandb_project_name
 
     models_path = "models"
     try:

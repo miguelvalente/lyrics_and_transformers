@@ -13,6 +13,7 @@ All arguments have a default but you can specify the following paramenters:
 - --batch_size
 - --epochs
 - --wandb_project_name
+
 You can choose between BERT and DistilBERT based on a numerical value 0 = BERT, 1 = DistilBert
 - --model_choice
 
